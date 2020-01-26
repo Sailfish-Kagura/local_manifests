@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+	<remote fetch="https://github.com/mer-hybris/" name="mer-hybris" revision="master" />
+	<remote fetch="https://github.com/libhybris/" name="libhybris" revision="master" />
+	<remote fetch="https://github.com/sailfishos/" name="sailfishos" revision="master" />
+	<remote fetch="https://github.com/Sailfish-Kagura/" name="sreehari" revision="master" />
+
+	<project path="external/busybox" name="android_external_busybox_prebuilt" remote="mer-hybris" />
+	<project path="external/selinux_stubs" name="android_external_selinux_stubs" remote="mer-hybris" revision="master" />
+	<project path="external/libhybris" name="libhybris" remote="mer-hybris" revision="master" />
+	<project path="external/libhybris/libhybris" name="libhybris" remote="libhybris" revision="master" />
+	<project path="external/audioflingerglue" name="audioflingerglue" remote="mer-hybris" revision="master" />
+	<project path="external/droidmedia" name="droidmedia" remote="sailfishos" revision="master" />
+
+	<project path="hybris/mer-kernel-check" name="mer-kernel-check" remote="mer-hybris" />
+	<project path="hybris/hybris-boot" name="hybris-boot" remote="mer-hybris" />
+	<project path="hybris-patches" name="hybris-patches" remote="mer-hybris" revision="hybris-sony-aosp-pie" />
+	<project path="rpm/" name="droid-hal-kagura" remote="sreehari" />
+	<project path="hybris/hybris-configs" name="droid-config-kagura" remote="sreehari" />
+	<project path="hybris/droid-hal-version-kagura" name="droid-hal-version-kagura" remote="sreehari" />
+</manifest>
